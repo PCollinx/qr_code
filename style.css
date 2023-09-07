@@ -70,6 +70,9 @@ body {
         height: 60vh;
         width: 40vw;
     }
+    .container__header {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -79,9 +82,11 @@ body {
     }
     .container__header {
         margin-top: .5rem;
+        font-size: 16px;
     }
     .container__text {
         margin-top: .5rem;
+        font-size: 14px;
     }
 }
 
@@ -101,6 +106,9 @@ body {
         width: 70vw;
     }
     .container__header {
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .container__text {
+        font-size: 12px;
     }
 }
